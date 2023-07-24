@@ -3,7 +3,7 @@ title: "START (test post)"
 excerpt: Jekyll 블로그 오픈했습니다.
 
 category:
-  - Blog
+  - etc
 
 # toc: true
 # toc_sticky: true

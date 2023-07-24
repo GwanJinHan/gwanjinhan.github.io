@@ -111,7 +111,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "rhkswls93@naver.com"
+      # url: "rhkswls93@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -281,3 +281,4 @@ defaults:
       comments: # true
       share: false
       related: true
+      sidebar_main: true
