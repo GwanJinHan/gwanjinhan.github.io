@@ -105,7 +105,7 @@ analytics:
 author:
   name: "GwanJin Han"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
+  bio: ""
   location: "Seoul, Korea"
   email: "rhkswls93@naver.com"
   links:
