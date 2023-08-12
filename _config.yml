@@ -20,7 +20,7 @@ title: "방"
 title_separator: "|"
 subtitle: ""
 name: "GwanJin Han"
-description: ""
+description: "공부한 것들을 기록합니다."
 url: "https://gwanjinhan.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "GwanJinHan/comments" # GitHub  e.g "mmistakes/minimal-mistakes"
@@ -86,7 +86,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: # Open Graph/Twitter default site image
+og_image: /assets/images/og-image.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -96,7 +96,7 @@ social:
 
 # Analytics
 analytics:
-  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id: "UA-279044555-1"
     anonymize_ip: false
