@@ -1,5 +1,15 @@
 ---
-layout: home
+layout: archive
 sidebar_main: true
 author_profile: true
+entries_layout: list
+header:
+  overlay_image: /assets/images/title-image.jpg
 ---
+
+<div class="grid__wrapper">
+  {% for post in paginator.posts %} 
+  {% include archive-single.html type="list" %}
+  {% endfor %}
+</div>
+{% include paginator.html %}

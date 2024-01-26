@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "custom" # "air", "contrast", "dark", "dirt",
 
 # Site Settings
 locale: "en-US"
-title: "방"
+title: " "
 title_separator: "|"
 subtitle: ""
 name: "GwanJin Han"
@@ -26,8 +26,8 @@ baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "GwanJinHan/comments" # GitHub  e.g "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: /assets/images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+masthead_title: "방" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs: false # true, false (default)/
 words_per_minute: 200
 comments:
   provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -41,7 +41,7 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: "github-dark" # "github-light" (default), "github-dark"
+    theme: "github-light" # "github-light" (default), "github-dark"
     issue_term: "pathname" # "pathname" (default)
   giscus:
     repo_id: # Shown during giscus setup at https://giscus.app
@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name: "GwanJin Han"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: /assets/images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: ""
   location: "Seoul, Korea"
   email: "rhkswls93@naver.com"
@@ -275,10 +275,24 @@ defaults:
       type: posts
     values:
       show_date: true
-      layout: single
+      layout: splash
+      header:
+        overlay_image: /assets/images/title-image.jpg
       author_profile: true
-      read_time: false
+      read_time: true
       comments: true
-      share: false
+      share: true
       related: true
       sidebar_main: true
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: splash
+      header:
+        overlay_image: /assets/images/title-image.jpg
+      author_profile: true
+      sidebar_main: true
+      entries_layout: list
