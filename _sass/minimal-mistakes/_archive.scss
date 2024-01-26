@@ -40,7 +40,7 @@
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
-    margin-top: 0.5em;
+    margin-top: 1em;
   }
 }
 
@@ -141,7 +141,7 @@
       display: inline;
       justify-content: center;
       float: left;
-      margin-bottom: 5px;
+      margin-bottom: 1em;
 
       background-color: mix(rgb(122, 122, 122), $background-color, 10%);
       backdrop-filter: blur(10px);
